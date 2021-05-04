@@ -1,7 +1,11 @@
 {
-  "name": "Dennis' Chat App",
+  "name": "DennisApp",
   "version": "0.0.1",
-  "description": "my first socket.io app",
+  "description": "my chat app",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && node index.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^4.0.1"
